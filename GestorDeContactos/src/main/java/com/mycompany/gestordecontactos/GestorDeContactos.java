@@ -1,13 +1,13 @@
 package com.mycompany.gestordecontactos;
 
-import java.util.Scanner;
+
 import javax.swing.JOptionPane;
 
 public class GestorDeContactos {
 
     public static void main(String[] args) {
         ListaContactos lista = new ListaContactos();
-        Scanner scanner = new Scanner(System.in);
+        //Variables
         int opcion;
         String nombre;
         String telefono;
@@ -35,7 +35,5 @@ public class GestorDeContactos {
                     break;
             }
         } while (opcion != 4);
-
-        scanner.close();
     }
 }
